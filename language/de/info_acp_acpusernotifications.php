@@ -38,4 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_USER_USERNOTIFY' => 'Benachrichtigungen',
+
+	'LOG_ACP_USER_NOTIFY'	=> '<strong>Benachrichtigungsoptionen aktualisiert<br></strong>» %1$s',
 ));
+
